@@ -1,7 +1,7 @@
 'use strict'
 
 /**
- * @param {import("fastify").FastifyInstance} fastify
+ * @param {import('fastify').FastifyInstance} fastify
  */
 module.exports = async (fastify, opts) => {
   fastify.get('/', (request, reply) => {
