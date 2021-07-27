@@ -1,0 +1,22 @@
+{
+  "name": "fastify-minimal-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon . | pino-colada"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^3.19.2",
+    "fastify-autoload": "^3.8.0",
+    "fastify-sensible": "^3.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "pino-colada": "^2.1.0"
+  }
+}
